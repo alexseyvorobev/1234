@@ -1,0 +1,9 @@
+a=str("Suvorov")
+b=str("Eugene")
+c=2003
+print(a,"_",b,"_",c, sep= '')
+d=a
+a=b
+b=d
+c+=60
+print(a,"_",b,"_",c, sep= '')
